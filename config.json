@@ -1,0 +1,10 @@
+{
+  "url" : "http://node-linda-base.herokuapp.com",
+  "spaces" : [
+    "masuilab",
+    "delta",
+    "iota",
+    "shokai"
+  ],
+  "interval" : 3600
+}
