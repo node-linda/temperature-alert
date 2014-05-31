@@ -17,7 +17,7 @@ alert_tempe = (ts) ->
     tempe = Math.floor tuple.data.value
 
     msg = "現在の気温、 #{tempe}度。"
-    if tempe < 20 or 25 < tempe
+    if tempe < 20 or 27 < tempe
       msg += "お体に触りますよ"
     ts.write {type: "say", value: msg}
     cid = null
